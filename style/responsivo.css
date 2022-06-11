@@ -1,0 +1,36 @@
+@media (max-width: 1150px) {
+    .celular img {
+        max-width: 90%;
+        min-height: 15%;
+    }
+    .login {
+        max-width: auto;
+        min-height: 15%;
+    }
+    
+}
+@media (max-width: 960px) {
+    .instagram {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .celular img {
+        max-width: 30vh;
+        min-height: 15%;
+    }
+    .celular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 2rem 1.8rem;  
+    }
+}
+@media (max-width: 540px) {
+    .celular {
+        display: none;
+    }
+    .instagram {
+        align-items: center;
+        justify-content: center;
+    }
+}
