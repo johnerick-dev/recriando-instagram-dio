@@ -10,20 +10,25 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(88, 88, 88);
+    background-image: linear-gradient(90deg, #819998 0, #7b8c8a 16.67%, #727b7a 33.33%, #676767 50%, #5b5356 66.67%, #51444a 83.33%, #493941 100%);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+
 }
 .instagram {
     display: flex;
-    align-items: center;   
+    align-items: center;  
 }
 .login {
     display: flex;
     flex-direction: column;
-    margin-top: -6rem; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.celular {
+    margin-right: 1rem;
 }
 .celular img {
     width: auto;
@@ -37,7 +42,6 @@ body {
     border: 1px solid #8f8f8f;
     padding: 1.5rem;
 }
-
 .container-login img{
     width: 13rem;
     margin-top: 2rem;
@@ -77,10 +81,36 @@ body {
 .link-esqueceu-senha {
     margin-top: 1rem;
     color: #8f8f8f;
+    font-size: 10pt;
 }
-
-
+.container-cadastro {
+    width: 25.5rem;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 20px 0;
+    justify-content: center;
+    border: 1px solid #8f8f8f;
+}
+.container-cadastro p {
+    color: #fff;
+    margin-left: 5px;
+}
+.container-store {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.stores {
+    margin-top: 1rem;
+}
+.botao-store {
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
 .botao-store img {
-    width: 8em;
+    width: 12rem;  
 }
 
