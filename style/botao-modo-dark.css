@@ -1,0 +1,44 @@
+.botao-modo {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20px;
+    right: 5px;
+}
+.botao-escuro {
+    font-size:10px;
+    font-family:Arial;
+    width:75px;
+    height:28px;
+    cursor: pointer;
+    border-width:1px;
+    color:rgba(233, 230, 230, 1);
+    border-color:#d6bcd6;
+    font-weight:bold;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    box-shadow: 3px 3px 7px 0px #899599;
+    background:linear-gradient(rgba(74, 74, 74, 1), rgba(0, 0, 0, 1));
+}
+.botao-escuro:hover {
+    background: linear-gradientrgba(rgba(0, 0, 0, 1), rgba(74, 74, 74, 1), );
+}
+.botao-claro {
+    font-size:10px;
+    font-family:Arial;
+    width:75px;
+    height:28px;
+    cursor: pointer;
+    border-width:1px;
+    color:rgba(7, 7, 7, 1);
+    border-color:#d6bcd6;
+    font-weight:bold;
+    border-bottom-left-radius:9px;
+    border-bottom-right-radius:9px;
+    box-shadow: 3px 3px 7px 0px rgba(51, 57, 58, 1);
+    background:linear-gradient(rgba(255, 255, 255, 1), rgba(179, 178, 178, 1));
+}
+.botao-claro:hover {
+    background: linear-gradient(rgba(179, 178, 178, 1), rgba(255, 255, 255, 1));
+}
+                

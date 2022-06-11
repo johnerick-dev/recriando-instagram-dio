@@ -27,12 +27,12 @@
                     <a class="link-esqueceu-senha" href="#">Esqueceu a senha?</a>
                 </div>
                 <div class="container-cadastro">
-                    <span>Não tem uma conta?</span>
+                    <span class="nao-tem-conta">Não tem uma conta?</span>
                     <a href="#"><p>Cadastre-se</p></a>
 
                 </div>
                 <div class="container-store">
-                    <p>Obtenha o aplicativo.</p>
+                    <p class="obter-app">Obtenha o aplicativo.</p>
                     <div class="stores">
                         <button class="botao-store">
                             <img src="./imagens/apple-button.png" alt="Logo App Store">
@@ -43,11 +43,13 @@
                     </div>
 
                 </div>
-            </div>
-
-            <button id="dark" onclick="mudarTema(id)">Dark</button>
-            <button id="light" onclick="mudarTema(id)">Light</button>
+            </div>          
         </div>
+        <div class="botao-modo">
+            <button id="dark" class="botao-escuro" onclick="mudarTemaDark(id)">Modo Escuro</button>
+            <button id="light" class="botao-claro" onclick="mudarTemaLight(id)">Modo Claro</button>
+        </div>
+        
         <script src="./JS/modo-dark.js"></script>
     </body>
 </html>

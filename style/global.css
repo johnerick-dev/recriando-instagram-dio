@@ -19,7 +19,9 @@ body {
 }
 .instagram {
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    margin-top: 1rem;
+    position: absolute;
 }
 .login {
     width: auto;
@@ -37,7 +39,7 @@ body {
     min-height: 90vh;
     background-color: #fff;
     box-shadow: 1px 2px 5px #fff;
-    border-radius: 39px;
+    border-radius: 38px;
 }
 .container-login {
     display: flex;

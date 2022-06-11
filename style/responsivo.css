@@ -6,10 +6,9 @@
     .login {
         max-width: auto;
         min-height: 15%;
-    }
-    
+    }  
 }
-@media (max-width: 960px) {
+@media (max-width: 1020px) {
     .instagram {
         display: flex;
         flex-direction: column-reverse;
@@ -25,6 +24,21 @@
         margin: 2rem 0 2rem 1.8rem;  
     }
 }
+@media (max-width: 580px) {
+    .botao-modo .botao-claro {
+        width: 40px;
+        height: 35px;
+        padding: 2px;
+        font-size:9px;
+    }
+    .botao-modo .botao-escuro {
+        width: 40px;
+        min-height: 35px;
+        height: auto;
+        padding: 2px;
+        font-size:9px
+    }
+}
 @media (max-width: 540px) {
     .celular {
         display: none;
@@ -32,5 +46,22 @@
     .instagram {
         align-items: center;
         justify-content: center;
+    }
+    .botao-modo .botao-claro {
+        width: 40px;
+        height: 35px;
+        padding: 2px;
+        font-size:9px;
+    }
+    .botao-modo .botao-escuro {
+        width: 40px;
+        min-height: 35px;
+        height: auto;
+        padding: 2px;
+        font-size:9px
+    }
+    .botao-modo {
+        display: flex;
+        position: fixed;  
     }
 }
