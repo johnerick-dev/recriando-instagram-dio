@@ -1,10 +1,11 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# One page criada com base no Instagram
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Página criada de acordo com exercício proposto pela a instituição DIO. Com intuito de recriar página de login do instagram.
 
-### Os requisitos são:
+### Tecnologias utilizadas:
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
 
-## 🚀 Let's code! 🚀
