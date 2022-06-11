@@ -10,10 +10,77 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(88, 88, 88);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+}
+.instagram {
+    display: flex;
+    align-items: center;   
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-top: -6rem; 
+}
+.celular img {
+    width: auto;
+    min-height: 90vh;
+}
+.container-login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border: 1px solid #8f8f8f;
+    padding: 1.5rem;
+}
+
+.container-login img{
+    width: 13rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+.input-login {
+    width: 20rem;
+    height: 2.8rem;
+    margin-bottom: 4px;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+    font-size: 9pt;
+}
+.botao-entrar {
+    width: 20rem;
+    height: 2.2rem;
+    margin-top: 1rem;
+    background-color: #0095F6;
+    border: 1px solid #0095F6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.linha-login {
+    display: flex;
+    margin-top: 2rem;
+    color: #a5a5a5;
+}
+.linha-horizontal {
+    width: 110px;
+    border-top: 1px solid #a5a5a5;
+    margin: 8px 18px;
+}
+.link-facebook{
+    margin-top: 1rem;
+    color: #fff;
+}
+.link-esqueceu-senha {
+    margin-top: 1rem;
+    color: #8f8f8f;
+}
+
+
+.botao-store img {
+    width: 8em;
 }
 
