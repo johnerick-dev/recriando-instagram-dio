@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style/global.css">
         <link rel="stylesheet" href="./style/responsivo.css">
+        <link rel="stylesheet" href="./style/botao-modo-dark.css">
     <title>Instragram</title>
     </head>
     <body>
         <div class="instagram">
             <div class="celular">
-                <img src="./imagens/celular-dark.png" alt="Imagem Celular">
+                <img class="foto" src="./imagens/celular-dark.png" alt="Imagem Celular">
             </div>
             <div class="login">
                 <div class="container-login">
@@ -43,7 +44,10 @@
 
                 </div>
             </div>
+
+            <button id="dark" onclick="mudarTema(id)">Dark</button>
+            <button id="light" onclick="mudarTema(id)">Light</button>
         </div>
-  
+        <script src="./JS/modo-dark.js"></script>
     </body>
 </html>
